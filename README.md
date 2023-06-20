@@ -12,9 +12,7 @@ First pull the repo (duh) `git clone https://github.com/MightySpaceman/metroidva
 
 cd into it and make 
 
-`cd metroidvania-prototype`
-
-`make`
+`cd metroidvania-prototype && make`
 
 Then just `./program`
 
