@@ -5,7 +5,7 @@ C++ / SDL2 metroidvania-style platformer inspired by Hollow Knight. VERY VERY Ve
 #### Installing SDL2, SDL2_Image and SDL_ttf (arch): 
 `sudo pacman -S sdl2 sdl2_image sdl2_ttf`
 #### Installing SDL2, SDL_Image and SDL_ttf (debian):
-`sudo apt-get install libsdl2-dev`
+`sudo apt-get install libsdl2-dev libsdl2-ttf-dev`
 
 #### Compiling:
 First pull the repo (duh) `git clone https://github.com/MightySpaceman/metroidvania-prototype`
