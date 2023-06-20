@@ -16,4 +16,9 @@ cd into it and make
 
 Then just `./program`
 
-Todo
+## Todo
+- [ ] Fix movement system by limiting height of jumps
+- [ ] Animations with spritesheets
+- [ ] Level props/elements
+- [ ] Enemies
+- [ ] Level loading system 😬
