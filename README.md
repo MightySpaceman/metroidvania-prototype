@@ -18,6 +18,7 @@ Then just `./program`
 
 ## Todo
 - [ ] Fix movement system by limiting height of jumps
+- [ ] Config file
 - [ ] Animations with spritesheets
 - [ ] Level props/elements
 - [ ] Enemies
