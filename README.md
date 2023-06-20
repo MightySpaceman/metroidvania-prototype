@@ -11,8 +11,11 @@ C++ / SDL2 metroidvania-style platformer inspired by Hollow Knight. VERY VERY Ve
 First pull the repo (duh) `git clone https://github.com/MightySpaceman/metroidvania-prototype`
 
 cd into it and make 
+
 ``cd metroidvania-prototype
+
 make``
 
 Then just `./program`
+
 Todo
