@@ -48,17 +48,3 @@ bool Physics::detectCollision(SDL_Rect a, SDL_Rect b)
     //If none of the sides from A are outside B
     return true;
 };
-
-
-// detects whether the object is within the game's view window
-bool Physics::detectInBounds(int window_width, int window_height, int object_width, int object_height, int x, int y)
-{
-    if (x > window_width-object_width || x < 0)
-    {
-        return true;
-    }
-    if (y > window_width-object_width || y < 0)
-    {
-        return true;
-    }
-};

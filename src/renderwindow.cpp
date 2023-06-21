@@ -47,16 +47,16 @@ void RenderWindow::clear()
 void RenderWindow::render(Entity& p_entity)
 {
     SDL_Rect src;
-    src.x = p_entity.getCurrentFrame().x;
-    src.y = p_entity.getCurrentFrame().y;;
-    src.w = p_entity.getCurrentFrame().w;;
-    src.h = p_entity.getCurrentFrame().h;;
+    src.x = p_entity.getFrame().x;
+    src.y = p_entity.getFrame().y;;
+    src.w = p_entity.getFrame().w;;
+    src.h = p_entity.getFrame().h;;
 
     SDL_Rect dst;
-    dst.x = p_entity.getX() * 1;
-    dst.y = p_entity.getY() * 1;
-    dst.w = p_entity.getCurrentFrame().w * p_entity.getScaleX();  // sets destination rect scale (and therefore sprite) to the entity's current frame dimensions multiplied by the entity's scale values
-    dst.h = p_entity.getCurrentFrame().h * p_entity.getScaleY();
+    dst.x = p_entity.X() * 1;
+    dst.y = p_entity.Y() * 1;
+    dst.w = p_entity.getFrame().w; // * p_entity.scaleX();  // sets destination rect scale (and therefore sprite) to the entity's current frame dimensions multiplied by the entity's scale values
+    dst.h = p_entity.getFrame().h; // * p_entity.scaleY();
 
     SDL_RenderCopyEx(renderer, p_entity.getTex(), &src, &dst, p_entity.getRotation(), NULL, SDL_FLIP_NONE);
 }
