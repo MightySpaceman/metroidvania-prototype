@@ -17,6 +17,7 @@ cd into it and make
 Then just `./program`
 
 ## Todo
+- [ ] Move to grid-based system (1 unit = 12 pixels). Map elements placed on this grid. Makes experience universal on all screen resolutions.
 - [ ] Fix movement system by limiting height of jumps
 - [ ] Add config file for quick settings editing
 - [x] Code refactor/use inheritance with entity class like a normal human being
