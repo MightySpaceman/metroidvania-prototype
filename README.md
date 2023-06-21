@@ -19,7 +19,7 @@ Then just `./program`
 ## Todo
 - [ ] Fix movement system by limiting height of jumps
 - [ ] Add config file for quick settings editing
-- [ ] Code refactor/use inheritance with entity class like a normal human being
+- [x] Code refactor/use inheritance with entity class like a normal human being
 - [ ] Animations with spritesheets
 - [ ] Level props/elements
 - [ ] Enemies
