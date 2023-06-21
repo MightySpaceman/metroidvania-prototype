@@ -13,7 +13,7 @@ Player::Player(float p_x, float p_y, float p_scalex, float p_scaley, float p_ang
     setScaleY(p_scaley);
     setTex(p_tex);
 
-    setFrame(0, 0, 400, 400);
+    setFrame(0, 0, 100, 100);
 }
 
 void Player::update()
